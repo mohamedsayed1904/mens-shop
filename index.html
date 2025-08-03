@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Men's Clothing Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <nav>
+    <!-- <a href="https://freeimage.host/i/F4em7A7"><img src="https://iili.io/F4em7A7.md.jpg" alt="F4em7A7.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4emYN9"><img src="https://iili.io/F4emYN9.md.jpg" alt="F4emYN9.md.jpg" border="0"></a> -->
+    <div class="logo">
+      <img src="https://iili.io/F4em7A7.md.jpg" alt="F4em7A7.md.jpg" class="logo-img" />
+      <span>Men's Style</span>
+    </div>
+    <ul>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="cart-icon" onclick="toggleCart()">
+      🛒
+      <span class="cart-count" id="cart-count">0</span>
+    </div>
+  </nav>
+
+  <section class="hero"></section>
+
+  <section id="products" class="products">
+    
+    <div class="product">
+      <img src="https://iili.io/F4eQHDG.md.jpg" alt="F4eQHDG.md.jpg"/>
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <!--<a href="https://freeimage.host/i/F4ekWyN"><img src="https://iili.io/F4ekWyN.md.jpg" alt="F4ekWyN.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4ekhuI"><img src="https://iili.io/F4ekhuI.md.jpg" alt="F4ekhuI.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4ekG3v"><img src="https://iili.io/F4ekG3v.md.jpg" alt="F4ekG3v.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4ekVvp"><img src="https://iili.io/F4ekVvp.md.jpg" alt="F4ekVvp.md.jpg" border="0"></a> -->
+      <img src="https://iili.io/F4ekWyN.md.jpg" alt="F4ekWyN.md.jpg" />
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://iili.io/F4ekhuI.md.jpg" alt="F4ekhuI.md.jpg"/>
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src=https://iili.io/F4ekG3v.md.jpg" alt="F4ekG3v.md.jpg"/>
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://iili.io/F4ekVvp.md.jpg" alt="F4ekVvp.md.jpg" />
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <!-- <a href="https://freeimage.host/i/F4e6jBS"><img src="https://iili.io/F4e6jBS.md.jpg" alt="F4e6jBS.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4e6Whl"><img src="https://iili.io/F4e6Whl.md.jpg" alt="F4e6Whl.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4ekWyN"><img src="https://iili.io/F4ekWyN.md.jpg" alt="F4ekWyN.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4e6N49"><img src="https://iili.io/F4e6N49.md.jpg" alt="F4e6N49.md.jpg" border="0"></a> -->
+      <img src="https://iili.io/F4e6jBS.md.jpg" alt="F4e6jBS.md.jpg"/>
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://iili.io/F4e6Whl.md.jpg" alt="F4e6Whl.md.jpg" />
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://iili.io/F4ekWyN.md.jpg" alt="F4ekWyN.md.jpg" />
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://iili.io/F4e6N49.md.jpg" alt="F4e6N49.md.jpg" />
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <!-- <a href="https://freeimage.host/i/F4eQdxf"><img src="https://iili.io/F4eQdxf.md.jpg" alt="F4eQdxf.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4eQ9Ns"><img src="https://iili.io/F4eQ9Ns.md.jpg" alt="F4eQ9Ns.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4eLyRn"><img src="https://iili.io/F4eLyRn.md.jpg" alt="F4eLyRn.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4eQHDG"><img src="https://iili.io/F4eQHDG.md.jpg" alt="F4eQHDG.md.jpg" border="0"></a>
+<a href="https://freeimage.host/i/F4eQKf2"><img src="https://iili.io/F4eQKf2.md.jpg" alt="F4eQKf2.md.jpg" border="0"></a> -->
+      <img src="https://iili.io/F4eQdxf.md.jpg" alt="F4eQdxf.md.jpg"/>
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://iili.io/F4eQ9Ns.md.jpg" alt="F4eQ9Ns.md.jpg"/>
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://iili.io/F4eLyRn.md.jpg" alt="F4eLyRn.md.jpg" />
+      <div class="product-name">Black T-Shirt</div>
+      <div class="product-price">$25</div>
+      <button class="order-btn" onclick="addToCart('Black T-Shirt', '$25')">Order Now</button>
+    </div>
+    
+  </section>
+
+  <section class="cart-popup" id="cart-popup">
+    <div id="cart-items"></div>
+    <div class="empty" id="empty-cart">🛒 Your cart is empty</div>
+  </section>
+
+  <footer>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>High quality men's fashion for every occasion.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: support@mensstyle.com</p>
+    </section>
+  </footer>
+
+</body>
+</html>
